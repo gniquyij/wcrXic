@@ -4,7 +4,7 @@ If you visit gist.github.com in China, you might find:
 
 ## What happened?
 
-`dig +trace gist.github.com`, found the A record of gist.github.com was returned by a generic top level domain name (gTLD) server, which was not [the expected](https://vjyq.github.io/wcrXic/).
+`dig +trace gist.github.com`, found the A record of gist.github.com was returned by a generic top level domain (gTLD) name server, which was not [the expected](https://vjyq.github.io/wcrXic/).
 
 ![gist-unreachable-reason](./gist-unreachable-reason.png)
 
